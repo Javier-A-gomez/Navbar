@@ -65,8 +65,6 @@ main {
     justify-content: center;
     align-items: center;
     color: #050d26;
-
-
 }
 
 #hero {
@@ -82,7 +80,6 @@ main {
     flex-direction: column;
     gap: 20px;
     width: 50%;
-
 }
 
 .hero-info h1{
@@ -90,22 +87,58 @@ main {
     width: 80%;
     min-width: 500px;
     font-weight: 800;
-    
 }
 
 .hero-info p {
     font-size: 14px;
     width: 70%;
-
 }
 
 .hero-card {
     border-radius: 20px;
-    display: flex;
     gap: 14px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hero-info a {
+    color: var(--bg-electric);
+    background-color: #1e50ff;
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#info {
+    display: flex;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-parrafo h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.info-parrafo p {
+    font-size: 15px;
+    padding: 40px 20px;
     
 }
 
+    
+    
+    
+    
+    
+    
 
+}
 
 
