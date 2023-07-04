@@ -53,7 +53,7 @@ header {
 }
 
 .navbar-list{
-    color: green;
+    color: white
     font-size: 14px;
 }
 
@@ -111,6 +111,7 @@ main {
     text-align: center;
 }
 
+
 #info {
     display: flex;
     padding: 70px 0px;
@@ -124,12 +125,15 @@ main {
 .info-parrafo h2 {
     font-size: 30px;
     font-weight: 800;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-parrafo p {
     font-size: 15px;
     padding: 40px 20px;
-    
+
 }
 
     
