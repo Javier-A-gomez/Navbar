@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/mediaqueries.css">
+
 
 </head>
 <body>
@@ -12,11 +14,27 @@
         <img src="./img/logo2.png" alt="logo"
         class="logo">
        <nav class="navbar">
+
+          <label for="menu-toggle" class="menu-label">
+            <img src="./img/Menu.png" alt="menuIcon" class="menu-icon">
+          </label>
+         <input type="checkbox" id="menu-toggle">
+      
     <ul class="navbar-list">
         <li> <a href="#"> Inicio</a></li>
         <li> <a href="#"> Nosotros</a></li>
         <li> <a href="#"> Contacto</a></li>
      </ul>
+     <label for="cart-toggle">
+        <img src="./img/cart0.png" alt="carrito" class="cart-icon">
+     </label>
+     <input type="checkbox" id="cart-toggle">
+
+     <div class="cart">
+        <h2>tn</h2>
+
+     </div>
+
     </nav>
 </header>
 
@@ -89,8 +107,19 @@
                         Acceso a experiencias exclusivas: tenemos una amplia red de socios y conexiones locales en diferentes destinos. Esto nos permite ofrecerte acceso a experiencias exclusivas y auténticas que no encontrarás en paquetes turísticos 
                     </p>
                 </div>
-        </section>   
+        </section> 
+        <button class="btn-load">Ver Más</button>
 </main>
+
+<footer>
+    <div>
+        <ul class="footer-links">
+            <li><a href="#">Terminos de uso</a></li>
+            <li><a href="#">Trabaja con nosotros</a></li>
+            <li><a href="#">Soporte</a></li>
+        </ul>
+    </div>    
+</footer>
 
 </body>
 </html>
