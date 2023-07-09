@@ -10,10 +10,20 @@
         left: 5%;
         right: 5%;
         width: 90%;
-        
-        
-        
+        flex-direction: column;
+        background-color:#e9eeff;
+        border: 2px solid;
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        gap: 25px;
+        padding: 45px 30px;
+        z-index: 2;
         display: none;
+    }
+
+    .navbar-list a {
+        font-size: 18px;
     }
 
     .cart-icon {
@@ -35,6 +45,29 @@
 
     #menu-toggle:checked + .navbar-list {
         display: flex;
+    }
+
+    .hero-info {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero-info h1 {
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .hero-info p {
+        width: 60%;
+        max-width: 600px;
+    }
+
+    .hero-card {
+        display: none;
     }
     
     
